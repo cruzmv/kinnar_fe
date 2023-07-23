@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M80 0L80 0L80 80L0 80L0 0L80 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Bookmark" clip-path="url(#clip_1)">
+    <path d="M80 0L80 0L80 80L0 80L0 0L80 0Z" id="Bookmark" fill="none" stroke="none" />
+    <path d="M17.5 10L17.5 15L60 15L60 66.5918C55.2353 65.0397 50.9535 63.0806 47.9834 60.5859C44.4192 57.5923 42.5 54.1979 42.5 50L37.5 50C37.5 54.1667 35.5121 57.562 31.8506 60.5664C28.1891 63.5708 22.8648 65.9809 16.8555 67.583L18.1445 72.417C24.6352 70.6866 30.5609 68.096 35.0244 64.4336C37.0634 62.7605 38.6811 60.7529 39.9658 58.584C41.2099 60.7419 42.7755 62.7425 44.7656 64.4141C49.139 68.0873 54.9828 70.685 61.4795 72.417L61.7969 72.5L65 72.5L65 10L17.5 10L17.5 10ZM17.5 22.5L17.5 27.5L37.5 27.5L37.5 22.5L17.5 22.5L17.5 22.5ZM17.5 35L17.5 40L27.5 40L27.5 35L17.5 35L17.5 35Z" id="Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>

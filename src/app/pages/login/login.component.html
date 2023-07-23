@@ -1,0 +1,58 @@
+<div class="row">
+    <app-topbar [showButtons]="false"></app-topbar>
+</div>
+<div class="row">
+    <div class="login-content">
+        <div class="row">
+            <div class="col">
+                <img src="assets/rainbow.svg" class="rainbow">
+            </div>
+        </div>
+        <div class="row form-content">
+            <div class="col">
+                <form [formGroup]="loginForm" (ngSubmit)="loginSubmit()">
+                    <label *ngIf="loginStatus >= 400" class="unauthorized_label" #unauthorized_label>Unauthorized access, please check your username and password</label>
+                    <div class="matSpinner" *ngIf="loginStatus == 1"><mat-spinner></mat-spinner></div>
+                    <div class="row">
+                        <div class="col">
+                            <mat-form-field class="mat-inputs">
+                                <input matInput placeholder="Email" formControlName="user" [style.color]="!loginForm.value.user?'red':'blue'">
+                                <mat-icon matSuffix>person</mat-icon>
+                            </mat-form-field>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <mat-form-field class="mat-inputs">
+                                <input type="password" matInput placeholder="Password" formControlName="password">
+                                <mat-icon matSuffix>lock</mat-icon>
+                            </mat-form-field><br/>
+                            <label class="support-link">Forgot your password ?</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <button type="button" mat-button class="log-btn" [disabled]="!loginForm.valid" (click)="signin()">Sign In</button>
+                            <button mat-button class="log-btn" [disabled]="!loginForm.valid">Login</button>
+                        </div>
+                    </div>
+                </form>
+                <label class="signInMessage">{{signInMessage}}</label>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="google-login">
+        <button mat-button class="google-log">
+            <img src="/assets/google-logo.svg" class="google-img">
+            Sign In with Google
+        </button><br/>
+        <label class="post-label">We will never post anything in your social channerls</label>
+    </div>
+</div>
+
+
+<!-- <div class="row">
+    <app-bottombar></app-bottombar>
+</div> -->

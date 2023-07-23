@@ -1,0 +1,81 @@
+.matSpinner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: -webkit-center;
+    z-index: 1;
+}
+
+.login-content {
+    text-align: center;
+    position: fixed;
+    top: 60px;
+    height: 70%;
+}
+
+.signInMessage {
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.rainbow {
+    width: 120px;
+}
+
+.form-content {
+    height: 60%;
+    align-items: center;
+}
+
+.mat-inputs {
+    width: 80%;
+    height: 70px;
+}
+
+.support-link {
+    width: 80%;
+    text-align: left;
+    color: red;
+    cursor: pointer;
+}
+
+.log-btn {
+    width: 120px;
+    margin-top: 20px;
+    margin-right: 5px;
+    color: white !important;
+    background-color: #0072FF;
+}
+
+.google-login {
+    margin-top: 40px;
+    position: fixed;
+    bottom: 20px;
+    text-align: center;
+}
+
+.google-log {
+    width: 300px;
+    height: 60px;
+    color: white !important;
+    background-color: #0072FF;
+    margin-bottom: 10px;
+}
+
+.google-img {
+    width: 15%
+}
+
+.post-label {
+    color: #757575;
+    font-size: 12px;
+}
+
+.unauthorized_label {
+    margin-bottom: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+
